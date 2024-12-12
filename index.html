@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Lyn Lam" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Furniture Store</title>
+  </head>
+  <body>
+    <div id="purchase">
+      <h1>Last Gasp Furniture</h1>
+      <button onclick="buy();">Make a Purchase</button>
+    </div>
+
+    <div id="invoice">
+      <table id="itemInvoice">
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Unit Price</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td id="item-list"></td>
+          <td id="qty-list"></td>
+          <td id="unitPrice-list"></td>
+          <td id="price-list"></td>
+        </tr>
+      </table>
+    </div>
+
+    <button id="shopAgain" onclick="location.reload()">Shop Again?</button>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

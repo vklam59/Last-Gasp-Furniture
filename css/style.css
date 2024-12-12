@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  background-color: #a69c6a;
+  color: #d2e2d4;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../images/fs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#purchase {
+  display: grid;
+  height: 50%;
+  align-items: flex-end;
+  text-align: center;
+}
+
+h1 {
+  color: #8c4f2b;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  margin: auto;
+  background-color: #d9c2a7;
+  font-weight: bold;
+  color: #59341e;
+  font-family: sans-serif;
+  border: solid #dbe8e3;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  color: #59341e;
+}
+
+#invoice {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  display: none;
+  font-weight: bold;
+  color: #59341e;
+  font-family: sans-serif;
+}
+
+#itemInvoice {
+  color: black;
+  border: 2px solid black;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  background-color: #d9c2a7;
+  font-weight: bold;
+  color: #59341e;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+th {
+  background-color: #095733;
+  color: white;
+}
+
+tr {
+  color: #59341e;
+  font-weight: bold;
+}
+
+#shopAgain {
+  display: none;
+}
